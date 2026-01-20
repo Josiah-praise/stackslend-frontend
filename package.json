@@ -1,12 +1,41 @@
 {
-  "name": "frontend",
+  "name": "stackslend-frontend",
   "version": "0.1.0",
+  "description": "A Next.js frontend application for Stacks blockchain-based lending platform with borrowing and lending capabilities",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdekunleBamz/stackslend-frontend.git"
+  },
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "nextjs",
+    "react",
+    "web3",
+    "lending",
+    "borrowing",
+    "defi",
+    "typescript"
+  ],
+  "author": "Adekunle Bamz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdekunleBamz/stackslend-frontend/issues"
+  },
+  "homepage": "https://github.com/AdekunleBamz/stackslend-frontend#readme",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@stacks/connect": "^7.2.0",
