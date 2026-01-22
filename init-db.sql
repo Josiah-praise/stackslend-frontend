@@ -1,0 +1,11 @@
+-- StacksLend Frontend Database Initialization
+-- Placeholder for any database-backed tooling.
+
+-- Example (PostgreSQL):
+-- CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+-- CREATE TABLE IF NOT EXISTS app_events (
+--   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+--   event_type TEXT NOT NULL,
+--   payload JSONB,
+--   created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+-- );
